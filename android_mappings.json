@@ -1,0 +1,40 @@
+{
+  "target_classes": ["Insomnia", "Sleep Apnea", null],
+  "gender_mapping": {
+    "Female": 0,
+    "Male": 1
+  },
+  "occupation_mapping": {
+    "Accountant": 0,
+    "Doctor": 1,
+    "Engineer": 2,
+    "Lawyer": 3,
+    "Manager": 4,
+    "Nurse": 5,
+    "Sales Representative": 6,
+    "Salesperson": 7,
+    "Scientist": 8,
+    "Software Engineer": 9,
+    "Teacher": 10
+  },
+  "bmi_mapping": {
+    "Normal": 0,
+    "Normal Weight": 1,
+    "Obese": 2,
+    "Overweight": 3
+  },
+  "feature_order": [
+    "Age",
+    "Sleep Duration",
+    "Quality of Sleep",
+    "Physical Activity Level",
+    "Stress Level",
+    "Heart Rate",
+    "Daily Steps",
+    "Systolic_BP",
+    "Diastolic_BP",
+    "Gender_Encoded",
+    "Occupation_Encoded",
+    "BMI_Encoded"
+  ]
+}
